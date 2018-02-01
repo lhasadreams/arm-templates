@@ -72,7 +72,7 @@
       "metadata": {
         "description": "Description for the Chef organisation"
       }
-    },    
+    },
 
     "networkVNetSize": {
       "type": "string",
@@ -138,7 +138,7 @@
         "description": "Size of the Automate server"
       },
       "defaultValue": "Standard_DS2_V2"
-    },    
+    },
 
     "vmSizeWorkstation": {
       "type": "string",
@@ -162,7 +162,7 @@
         "description": "Size of the Build nodes"
       },
       "defaultValue": "Standard_DS2_V2"
-    },    
+    },
 
     "shortUniqueLength": {
       "type": "int",
@@ -177,7 +177,7 @@
       "metadata": {
         "description": "Version of chef server to install"
       },
-      "defaultValue": "12.15.8"
+      "defaultValue": "12.17.15"
     },
 
     "chefDKVersion": {
@@ -185,7 +185,7 @@
       "metadata": {
         "description": "Version of ChefDK to use for the build nodes"
       },
-      "defaultValue": "1.5.0"
+      "defaultValue": "2.4.17"
     },
 
     "chefRepoUrl": {
@@ -201,7 +201,7 @@
       "metadata": {
         "description": "Version of automate server to install"
       },
-      "defaultValue": "1.5.46"
+      "defaultValue": "1.7.114"
     },
 
     "automateVersionChannel": {
@@ -246,7 +246,7 @@
       "allowedValues": [
         "yes",
         "no"
-      ]      
+      ]
     },
 
     "infrastuctureNodeCount": {
@@ -275,7 +275,7 @@
         "description": "SKU for the chosen platform"
       },
       "defaultValue": "2012-R2-Datacenter"
-    },    
+    },
 
     "infrastuctureNodeRunList": {
       "type": "string",
@@ -283,7 +283,7 @@
         "description": "Chef run list to apply to the Infrastructure nodes"
       },
       "defaultValue": ""
-    },    
+    },
 
     "infrastuctureNodeEnvironment": {
       "type": "string",
@@ -299,7 +299,7 @@
         "description": "Additional configuration for the chef client on Infrastructure nodes"
       },
       "defaultValue": ""
-    },         
+    },
 
     "subscriptionPassword": {
       "type": "securestring",
